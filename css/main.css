@@ -93,7 +93,8 @@ body main h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
   padding-bottom: 5px; /* Espaciado inferior */
 }
-body main div {
+/*
+body main div { 
   display: flex;
   align-content: center;
   height: auto;
@@ -103,7 +104,7 @@ body main div {
   gap: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
+} */
 body main #tour {
   text-align: center;
   color: #3e2923;
@@ -118,16 +119,17 @@ body main #trailer {
 }
 
 /* Estilos para las grillas */
+/*
 #grid-container3 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 5px;
-}
+} /*
 #grid-container3 .img-cuatro,
 #grid-container3 .img-ocho,
 #grid-container3 .img-nueve {
   grid-row: 3;
-}
+}*/
 
 /* Estilos para los discos de taytay */
 #albumes {
@@ -184,5 +186,23 @@ footer a a:hover {
     height: auto;
   }
 }
+/*
+@media screen and (min-width: 1024px){
+  #grid-container3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  /* Estilos para tablets */
+  /*#grid-container3 {
+     grid-template-columns: 1fr 1fr;
+     max-width: 100%;
+     height: auto; }
+ #grid-container {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
 
 /*# sourceMappingURL=main.css.map */
