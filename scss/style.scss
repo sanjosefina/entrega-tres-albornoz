@@ -12,23 +12,22 @@ body {
     font-style: normal;
     background-color: beige;
     color: #333;
-
     .videos {
         /* volver a mis estilos y no dejar los de bootstrap */
         font-family: "IM Fell DW Pica", serif;
         font-weight: 400;
         font-style: normal;
         background-color: beige;
-        color: #333;
+        color: #333; }
 
-        header {
-            background-color: #7d5a4f;
-            color: beige;
-            padding: 10px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 4px #3e2923 solid ;
+    header {
+        background-color: #7d5a4f;
+        color: beige;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 4px #3e2923 solid ;
 
             h1 {
                 /* Estilos para el título */
@@ -62,7 +61,7 @@ body {
                 }
             }
         }
-    }
+    
 
     /* Estilos para el contenido principal */
     main {
@@ -78,6 +77,19 @@ body {
                 width: 90%;
                 margin: 10px;
                 text-align: center;
+                img {
+                    #pict {
+                        max-width: 100%;
+                        height: auto;
+                        height: auto;
+                        margin-left: 50px;
+                        margin-right: 50px;
+                        display: flex;
+                        display: inline-block;
+                        justify-content: center;
+                        width: 80%; 
+                    }
+                }
 
                 p {
                     font-size: 25px;
@@ -92,19 +104,7 @@ body {
                         justify-content: center;
                     }
 
-                    img {
-                        #pict {
-                            max-width: 100%;
-                            height: auto;
-                            height: auto;
-                            margin-left: 50px;
-                            margin-right: 50px;
-                            display: flex;
-                            display: inline-block;
-                            justify-content: center;
-                            width: 80%; 
-                        }
-                    }
+                  
                 }
             }
         }
@@ -138,12 +138,21 @@ body {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
+            p {
+                font-size: 25px;
+                text-align: center;
+                gap: 5px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                }
         }
 
         #trailer {
             margin: 10px;
             justify-content: center;
-            
+
         }
     }
 
